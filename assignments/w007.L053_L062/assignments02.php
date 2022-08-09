@@ -16,8 +16,7 @@ $str = "Orezle";
 */
 
 $str = "Orezle";
-$str = lcfirst($str);
-$str = strrev($str);
-$str = ucfirst($str);
+
+$str = ucfirst(strrev(lcfirst($str)));
 
 echo $str ;// Elzero
