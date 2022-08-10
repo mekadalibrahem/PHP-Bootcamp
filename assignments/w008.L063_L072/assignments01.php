@@ -46,5 +46,5 @@ $friends = [
   ];
 
 echo "<pre>" ;
-print_r(array_chunk($friends,2,true));
+print_r(array_chunk( array_change_key_case($friends) ,2,true));
 echo "</pre>";
