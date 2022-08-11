@@ -18,6 +18,9 @@ $nums = [10, 20, 30];
 $nums = [10, 20, 30];
 echo array_reduce($nums , fn( $c,$i) =>   $c + $i );
 echo "<br>";
+echo array_sum($nums);
+echo "<br>";
+
 
 function sum(...$item){
     $sum = 0 ;
