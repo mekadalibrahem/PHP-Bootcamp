@@ -1,2 +1,2 @@
 # PHP-Bootcamp
-this Repository contains an explanation of  the course Zero Web School Academy and solving the required assignments within it 
+This repository contains a solution for php Bootcamp course assignments in channel elzero web school
